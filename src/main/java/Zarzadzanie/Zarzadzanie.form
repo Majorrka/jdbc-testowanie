@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Zarzadzanie.Zarzadzanie">
+  <grid id="27dc6" binding="panel1" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="600" height="450"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="a1f01" binding="panelFormularza" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a1f02" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Imię:"/>
+            </properties>
+          </component>
+          <component id="a1f03" class="javax.swing.JTextField" binding="poleImie">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+          <component id="a1f04" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Nazwisko:"/>
+            </properties>
+          </component>
+          <component id="a1f05" class="javax.swing.JTextField" binding="poleNazwisko">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+          <component id="a1f06" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Stanowisko:"/>
+            </properties>
+          </component>
+          <component id="a1f07" class="javax.swing.JTextField" binding="poleStanowisko">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+          <component id="a1f08" class="javax.swing.JButton" binding="przyciskDodaj">
+            <constraints/>
+            <properties>
+              <text value="Dodaj Pracownika"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="a1f09">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a1f0a" class="javax.swing.JTable" binding="tabela">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
